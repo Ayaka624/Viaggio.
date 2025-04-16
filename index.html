@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Viaggio.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Viaggo Logo White.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+            <h1 class="site-title">
+                <a href="index.html"><img src="img/Logo.png" alt="viaggio."></a>
+            </h1>
+    
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="news.html">お知らせ</a></li>
+                    <li><a href="città.html">街紹介</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+    
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="mask"></div>
+
+    </header>
+
+    <main>
+        <div class="mainvisual">
+            <img src="img/Mainvisual.png" alt="mainvisual">
+        </div>
+        
+        <div id="news" class="wrapper">
+            <h2 class="title">お知らせ</h2>
+            <p>2025/2/22</p>
+            <p>Padova</p>
+            <p>追加</p>
+        </div>
+        
+        <section id="citta" class="wrapper">
+            <div class="title">
+                <h2 class="section-title">街紹介</h2>
+                <h3 class="subtitle">イタリアの街を紹介します</h3>
+            </div>
+            
+            <div class="item">
+                <img src="img/padova.png" alt="padova">
+                <div class="item-inner">
+                    <div class="item-title">Padova</div>
+                    <div class="text">
+                        イタリア北東部、ヴェネト州に位置しています。<br>
+                        豊かな歴史と学問の伝統が息づいている街です。<br>
+                        ヨーロッパ最古の大学のひとつ、パドヴァ大学があります。<br>
+                        ユネスコ世界遺産に登録されたオルト･ボタニコや<br>
+                        ヨーロッパ最大級の広場<br>
+                        プラート･デッラ･ヴァッレも有名です。
+                    </div>
+                </div>
+            </div>
+
+            <div class="item item2">
+                <div class="item-inner">
+                    <div class="item-title">Treviso</div>
+                    <div class="text">
+                        イタリア北東部、ヴェネト州に位置しています。<br>
+                        ティラミス発祥の地として知られている街です。<br>
+                        中世の趣を残す古い城壁に囲まれ、<br>
+                        街の中心には穏やかに流れる運河が張り巡らされています。<br>
+                        歴史ある建築を眺めながら、石畳の道を散策できます。<br>
+        
+                    </div>
+                </div>
+                <img src="img/treviso.png" alt="treviso">
+            </div>
+
+            <div class="item">
+                <img src="img/auronzo di cadore.png" alt="auronzo di cadore">
+                <div class="item-inner">
+                    <div class="item-title">Auronzo di cadore</div>
+                    <div class="text">
+                        イタリア北東部ヴェネト州ベッルーノ県に佇む小さな街です。<br>
+                        目の前に広がる雄大なアウロンツォ湖とともに、<br>
+                        訪れる人々を静かな癒しへと誘います。<br>
+                        夏は涼しく、避暑地として最適で、湖畔を散歩したり、<br>
+                        アルプスの澄んだ空気の中でゆったりした時間を過ごせます。<br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn">
+                <a href="città.html">Read more...</a>
+            </div>
+
+        </section>
+
+        <section id="introduction" class="introduction wrapper">
+            <h2 class="section-title">自己紹介</h2>
+            <div class="flex">
+                <img src="img/自己紹介.png" alt="introduction">
+                <table class="introduction-list">
+                    <tr>
+                        <th>名前</th>
+                        <td>Ayaka</td>
+                    </tr>
+                    <tr>
+                        <th>出生地</th>
+                        <td>Fukuoka</td>
+                    </tr>
+                    <tr>
+                        <th>好き</th>
+                        <td>写真・旅行</td>
+                    </tr>
+                    <tr>
+                        <th>イタリアの好きな街</th>
+                        <td>Treviso</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="contact" class="contact wrapper">
+            <h2 class="section-title">お問い合わせ</h2>
+            <form action="#" class="contact-form">
+                <dl class="contact-flex">
+                    <dt><label class="label">名前</label></dt>
+                    <dd><input type="text" name="name" class="inputs"></dd>
+                </dl>
+
+                <dl class="contact-flex">
+                    <dt><label class="label">メールアドレス</label></dt>
+                    <dd><input type="email" name="email" class="inputs"></dd>
+                </dl>
+
+                <dl class="contact-flex">
+                    <dt><label class="label">メッセージ</label></dt>
+                    <dd><textarea name="message" class="message"></textarea></dd>
+                </dl>
+            </form>
+
+            <input type="submit" value="送信" class="submit">
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy;Viaggio.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
